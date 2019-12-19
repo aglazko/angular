@@ -1,0 +1,5 @@
+<div>
+  <input [(ngModel)]="fielde" type="text"><br>
+  <p>{{fielde}}</p>
+  <button [disabled]="fielde ? false : true" (click)="Clean()">Press</button>
+</div>
